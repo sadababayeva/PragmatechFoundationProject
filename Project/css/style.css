@@ -37,7 +37,7 @@ padding: 50px 0px;
 
 }
 .nav ul li a {
-    padding: 0px 15px;
+    padding: 0px 25px;
     text-decoration: none;
     color: #5B5766;
     font-family: 'Nunito', sans-serif;
@@ -59,8 +59,7 @@ padding: 50px 0px;
 /* Slider section start */
 .slide {
     
-    padding: 255px 0px;
-    border: 1px solid gray;
+    padding: 200px 0px;
     background-image: url(../img/group-of-architects-and-business-people-working-ZLA57WU-scaled.jpg);
     background-size: cover;
     background-position: center;
@@ -79,9 +78,9 @@ padding: 50px 0px;
     font-family: 'Poppins', sans-serif;
 }
 .slide-description p {
-    margin: 20px 0px;
+    margin: 10px 0px;
     color: white;
-    padding: 30px 0;
+    padding: 10px 0;
     font-family: 'Nunito', sans-serif;
     font-size: 1.2em;
     
