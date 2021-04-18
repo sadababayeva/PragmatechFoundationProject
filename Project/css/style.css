@@ -15,6 +15,7 @@ padding: 50px 0px;
     color: #554D89;
     font-family: 'Nunito', sans-serif;
     font-size: 700;
+    font-weight: 600;
 
 }
 
@@ -58,7 +59,6 @@ padding: 50px 0px;
 
 /* Slider section start */
 .slide {
-    
     padding: 200px 0px;
     background-image: url(../img/group-of-architects-and-business-people-working-ZLA57WU-scaled.jpg);
     background-size: cover;
@@ -93,3 +93,29 @@ padding: 50px 0px;
     border: 1px solid white;
     border-radius: 20px;
 }
+/* slider section end */
+
+/* service section start */
+
+.item {
+    /* padding: 20px; */
+    /* height: 250px; */
+    width: 380px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    margin: 25px;
+}
+.service-item { 
+    
+}
+.service-item-icon {
+    font-size: 1.5em;
+    margin: 20px;
+}
+.service-item-header {
+    margin: 20px;
+}
+.service-item-content {
+    margin: 20px;
+}
+
