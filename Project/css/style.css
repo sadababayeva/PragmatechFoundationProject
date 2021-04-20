@@ -158,5 +158,36 @@ padding: 50px 0px;
     font-size: 1em;
 
 }
+/* service section end */
 
+/* company-info start */
 
+.more-info {
+    
+    background-image: url(../img/beautiful-female-architect-working-on-plan-SGVWT4U.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.info-icon {
+    color: #6852ed;
+    padding-top: 35px;
+    margin: 30px 0px;
+    font-size: 5em;
+    
+}
+.info-header {
+    margin: 30px 0px;
+}
+.info-content {
+    margin: 30px 0px;
+}
+
+.info-box-number {
+    color:  #BA43FC;
+
+}
+
+.info-box {
+    border: 1px solid gray;
+}
