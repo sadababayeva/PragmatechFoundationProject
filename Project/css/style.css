@@ -99,12 +99,12 @@ padding: 50px 0px;
 
 .item {
     /* padding: 20px; */
-    /* height: 250px; */
+    height: 240px;
     width: 380px;
     box-shadow: 0px 0px 5px gray;
     border-radius: 10px;
     margin: 30px
-    
+        
 }
  
 .service-item-icon {
@@ -124,8 +124,7 @@ padding: 50px 0px;
 
 .service-item-header h5 {
     font-size: 1.5em;
-
-
+    font-size: 600;
 }
 .service-item-content {
     margin: 20px;
@@ -160,10 +159,10 @@ padding: 50px 0px;
 }
 /* service section end */
 
-/* company-info start */
+/* company-info section start */
 
 .more-info {
-    
+    height: 600px;
     background-image: url(../img/beautiful-female-architect-working-on-plan-SGVWT4U.jpg);
     background-size: cover;
     background-position: center;
@@ -178,6 +177,8 @@ padding: 50px 0px;
 }
 .info-header {
     margin: 30px 0px;
+    font-size: 2.3em;
+    font-weight: 510;
 }
 .info-content {
     margin: 30px 0px;
@@ -185,9 +186,30 @@ padding: 50px 0px;
 
 .info-box-number {
     color:  #BA43FC;
-
+    margin: 30px 0px;
+    font-size: 4em;
+    font-size: 400;
 }
-
-.info-box {
+.info-box-header {
+    margin: 15px 0px;
+    font-size: 1.5em;
+}
+.info-box-content p {
+    font-size: 1em;
+}
+.item-box {
     border: 1px solid gray;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+    margin-top: 120px;
+    background: white;
+
 }
+/* company info section end */
+
+/*solution section start*/
+
+
