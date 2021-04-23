@@ -236,8 +236,7 @@ padding: 50px 0px;
     display: flex;
     justify-content: flex-start ;
     align-items: center;
-    ;
-
+    
 }
 .solution-button-1 button{
     border: 1px solid #BA43FC;
@@ -268,6 +267,7 @@ padding: 50px 0px;
 }
 .financial-description {
     padding: 40px 0px;
+    font-size: 1em;
 }
 .financial-header {
     font-size: 2.3em;
@@ -292,8 +292,7 @@ padding: 50px 0px;
     display: flex;
     justify-content: flex-start ;
     align-items: center;
-    ;
-
+    
 }
 .financial-button-1 button{
     border: 1px solid #BA43FC;
@@ -319,3 +318,68 @@ padding: 50px 0px;
     color:  #554D89;
 }
     /* financial section end */
+
+    /* feedback section start */
+
+    #customers {
+        height: 500px;
+        background-image: url(../img/Services-background.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: 130px;
+    }
+    .customer-feedback {
+        text-align: center;        
+    }
+    .feedback-description {
+        padding: 40px 0px;
+        
+    }
+    .feedback-description p {
+        font-size: 1em;
+    }
+
+    .feedback-header {
+        padding-top: 50px;
+        font-size: 2.3em;
+        font-weight: 500;
+    }
+    .feedback-image img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;    
+
+    }
+
+    .customer-name {
+        padding-top: 40px;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    /* feedback section end */
+
+    /* offers section start */
+
+    /* #offers {
+        margin-top: 90px;
+    } */
+    .detail-header {
+        padding: 20px 0px;
+    }
+    .offer-item-details {
+        margin-top: 80px;
+        padding-left: 50px;
+        
+    }
+    .detail-icon {
+        color: #6852ed;
+        font-size: 2.2em;
+    }
+    .detail-header {
+        font-size: 1.5em;
+    }
+    .detail-description {
+        font-size: 1.1em;
+    }
+    /* offers section end */
+
