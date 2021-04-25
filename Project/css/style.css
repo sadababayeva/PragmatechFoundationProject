@@ -58,6 +58,7 @@ padding: 50px 0px;
 /* top-nav section end */
 
 /* Slider section start */
+
 .slide {
     padding: 200px 0px;
     background-image: url(../img/group-of-architects-and-business-people-working-ZLA57WU-scaled.jpg);
@@ -97,6 +98,9 @@ padding: 50px 0px;
 
 /* service section start */
 
+#service {
+    padding-top: 50px;
+}
 .item {
     /* padding: 20px; */
     height: 240px;
@@ -161,6 +165,10 @@ padding: 50px 0px;
 
 /* company-info section start */
 
+#company-info {
+    padding: 50px 0px
+}
+
 .more-info {
     height: 600px;
     background-image: url(../img/beautiful-female-architect-working-on-plan-SGVWT4U.jpg);
@@ -204,7 +212,7 @@ padding: 50px 0px;
     border-radius: 10px;
     text-align: center;
     height: 300px;
-    margin-top: 120px;
+    margin-top: 150px;
     background: white;
 
 }
@@ -360,9 +368,7 @@ padding: 50px 0px;
 
     /* offers section start */
 
-    /* #offers {
-        margin-top: 90px;
-    } */
+    
     .detail-header {
         padding: 20px 0px;
     }
@@ -383,3 +389,146 @@ padding: 50px 0px;
     }
     /* offers section end */
 
+    /* contact us section start */
+
+    #contact-us {
+        margin: 80px 0px;
+    }
+    .information {
+        background: url(../img/Background-call-to-action.jpg);
+        height: 80px;
+        padding: 50px 0px;
+        display: 
+    }
+
+    
+    .call-to {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        
+        
+    }
+    
+    .call-to-action {
+        position:absolute;
+        top: 18px;
+        right: -223px;
+    }
+
+    .call-to-action button {
+        padding: 8px 45px;
+        color: #FFFFFF;
+        border: 1px solid #EF7171;
+        border-radius: 20px;
+        background: #EF7171;
+        font-size: 1.1em;
+
+    }
+
+    .question {
+        position:absolute;
+        top: 23px;
+        left: 33px
+    }
+
+    .question span {
+        color: #EF7171;
+        font-size: 1em;
+    }
+    .question p {
+        font-size: 1.3em;
+    }
+/* contact us section end */
+
+/* join us section start */
+#Join {
+    padding: 30px 0px;
+}
+.join-description {
+    padding: 30px 0px;
+    font-size: 1em;
+}
+.join-header {
+    font-size: 2.2em;
+    font-weight: 500;
+    
+}
+
+.join-us-content {
+    margin-left: -100px;
+}
+
+.join-image img {
+    width: 85%;    
+    border-radius: 0px 1000px 1000px 0px;
+    margin: auto;
+
+}
+.join-button { 
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    
+}
+.join-us-button button{
+    border: 1px solid #BA43FC;
+    background: #BA43FC;
+    color: #FFFF;
+    border-radius: 25px;
+    font-size: 1em;
+    padding: 10px 40px;    
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.support-us-button button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    margin-left: 20px;
+    color:  #554D89;
+} 
+
+.support-us-button i {
+    padding-left: 15px;
+    color:  #554D89;
+}
+/* join us section end */
+
+/* get more info start */
+#get-more-info {
+    padding-top: 70px;
+}
+
+.common-content {
+    position: relative;
+    padding-left: 130px;
+    
+}
+
+.question-icon i {
+    position: absolute;
+    top: -4px;
+    left: 33px;
+    color: #6852ED;
+    font-size: 2.5em;
+    
+}
+.question-heading {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+.question-desc p {
+    padding: 20px 0px;    
+}
+.question-action button {
+    font-size: 1.1em;
+    
+}
+.question-action i {
+    padding-left: 20px;
+}
+/* get more info end */

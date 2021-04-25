@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .solar {
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            top: calc(50% - 400px);
+            left: calc(50% - 400px);
+            border: 1px solid gray;
+        }
+        
+        @keyframes gunesiDondur {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .sun {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: calc(50% - 100px);
+            left: calc(50% - 100px);
+            transform: rotate(45deg);
+        }
+        
+        .sun img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .earth {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            animation: gunesiDondur 3s linear infinite;
+        }
+        
+        .earth img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="solar">
+        <div class="sun">
+            <img src="img/sun.png" alt="">
+        </div>
+        <div class="earth">
+            <img src="img/earth.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
