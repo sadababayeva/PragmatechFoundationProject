@@ -1,7 +1,7 @@
 
  /* top-nav section start */
 #top-nav {
-padding: 50px 0px;
+padding: 40px 0px;
 }
 .nav-brand {
     height: 100%;
@@ -496,7 +496,7 @@ padding: 50px 0px;
 }
 /* join us section end */
 
-/* get more info start */
+/* get more info section start */
 #get-more-info {
     padding-top: 70px;
 }
@@ -531,4 +531,73 @@ padding: 50px 0px;
 .question-action i {
     padding-left: 20px;
 }
-/* get more info end */
+/* get more info section end */
+
+/* subscribe section start */
+
+#subscribe {
+    padding: 80px 0px;
+}
+.subscribe-box-content {
+    border: 1px solid #6852ED;
+    border-radius: 10px;
+    padding: 50px 0px;
+    background: #6852ED;
+    position: relative;
+}
+.subscribe-content {
+    color: #FFFF;
+    position: absolute;
+    top: 28px;
+    left: 106px;
+   
+}
+.subscribe-icon i {
+    position: absolute;
+    top: 23px;
+    left: 31px;
+    font-size: 3.5em;
+    color: #FFFF;
+}
+
+.subscribe-action button {
+    color: #FFFF;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border: 1px solid #BA43FC;
+    background: #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 1.1em;
+}
+/* subscribe section end */
+
+/* last section section start */
+
+.brand-info {
+    padding-bottom: 45px;
+}
+.brand {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 50px;
+}
+.brand-info span {
+    
+    padding: 15px;
+    color: #554D89;
+    font-family: 'Nunito', sans-serif;
+    font-size: 700;
+    font-weight: 600;
+
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+}
+
+
