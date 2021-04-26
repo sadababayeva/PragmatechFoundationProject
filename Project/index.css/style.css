@@ -398,7 +398,7 @@ padding: 40px 0px;
         background: url(../img/Background-call-to-action.jpg);
         height: 80px;
         padding: 50px 0px;
-        display: 
+        
     }
 
     
@@ -574,30 +574,105 @@ padding: 40px 0px;
 /* subscribe section end */
 
 /* last section section start */
-
-.brand-info {
-    padding-bottom: 45px;
+#last-section {
+    padding-bottom: 100px;
 }
+
 .brand {
     height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-right: 50px;
+    padding-bottom: 20px;
 }
 .brand-info span {
     
     padding: 15px;
     color: #554D89;
     font-family: 'Nunito', sans-serif;
-    font-size: 700;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 700;
 
+}
+.brand-info p {
+    font-size: 1.1em;
 }
 
 .brand img {
     width: 40px;
     height: 40px;
 }
+.loc-icon i {
+    color: #6852ED;
+}
+.message-icon i{
+    color: #6852ED;
+}
+.phone-icon i {
+    color: #6852ED;
+}
+.links li{ 
+    list-style-type: none;
+
+}
+.links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    
+}
+.links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+.contact-info {
+    padding: 0px 80px;
+    padding-top: 15px;
+}
 
 
+.phone-icon {
+    padding: 10px 0px;
+}
+.contact-info i{
+    padding-right: 15px;
+}
+
+.contact-desc {
+    font-size: 1.1em;
+}
+.contact-info h3 {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+    
+.links h3 {
+    padding-bottom: 20px; 
+    font-weight: bold;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.other-links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    
+}
+.other-links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.other-links li{ 
+    list-style-type: none;
+
+}
+
+.other-links {
+    padding-top: 20px;
+}
+/* last section section end */

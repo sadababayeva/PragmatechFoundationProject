@@ -1,0 +1,19 @@
+
+.main-font {
+    font-family: 'Poppins', sans-serif;
+}
+.secondary-font {
+    font-family: 'Nunito', sans-serif;
+
+}
+.main-color {
+    color:  #554D89;
+}
+
+.secondary-color {
+    color: #716C80;
+}
+
+.font-size {
+    font-size: 1.1em;
+}
