@@ -1,6 +1,6 @@
 
-/* top-nav section start */
-#top-nav {
+  /* top-nav section start */
+   #top-nav {
     padding: 40px 0px;
     }
     .nav-brand {
@@ -58,33 +58,348 @@
     /* top-nav section end */
 
     /* slider section start */
+
+    #slider {
+        padding-bottom: 120px;
+    }
     .slide {
-        padding: 200px 0px;
+        padding: 430px 0px;
         background-image: url(../img/portrait-of-businesspeople-standing-with-arms-7LWEQFP-2.jpg);
         background-size: cover;
-        background-position: center center;
-        /* object-fit: cover; */
+        background-position: center center;        
         position: relative;
     }
 
     .slide-content {
-        text-align: center;
+        text-align: center;      
+                
+    }
+    .slide-heading {    
         position: absolute;
-        top: 20px;
-        left: 20px;
-        
+        top: 552px;
+        left: 552px;
+        color: #fff;
+
     }
 
+    .slide-heading h1 {
+        font-size: 3.5em;
+    }
+     
+    .slide-description span {
+        font-size: 1.5em;
+    }
+    
     .circle {
         width: 100px;
         height: 100px;
         box-sizing: border-box;
         border-radius: 50%;
         border: 1px solid  #6852ED;
-        background:  #6852ED;
-        /* padding: 50px; */
+        background:  #6852ED;       
+        position: absolute;
+        top: 802px;
+        left: 663px;     
+        color: #fff;       
         
     }
+
+    .circle i{
+        padding-top: 37px;
+        font-size: 1.5em;
+    }
+
+/* slider section end */
+
+/* brand info start */
+#brand {
+    padding-bottom: 130px;
+}
+
+.section-desc  {
+    padding-bottom: 30px;
+    font-size: 2em;
+    font-weight: 500;
+
+}
+.section-action button {
+    font-size: 1.1em;
+}
+.section-action i {
+    padding-left: 10px;
+}
+.section-text span {
+    padding-top: 20px;
+}
+
+  /* brand info end */  
+
+  /* company-info section start */
+
+#company-info {
+    padding: 50px 0px
+}
+
+.more-info {
+    height: 600px;
+    background-image: url(../img/handsome-businessman-ceo-working-in-office-VS3T25R.jpg);
+    background-size: center;        
+    background-position: center;
+    box-sizing: border-box;
+    
+
+}
+.info-icon {
+    color: #6852ed;
+    padding-top: 35px;
+    margin: 30px 0px;
+    font-size: 5em;
+    
+}
+.info-header {
+    margin: 20px 0px;
+    font-size: 2.3em;
+    font-weight: 510;
+}
+.info-content {
+    margin: 30px 0px;
+}
+
+.info-box-icon {
+    color:  #BA43FC;
+    margin: 20px 0px;
+    font-size: 3em;
+    font-size: 400;
+}
+.info-box-header {
+    margin: 15px 0px;
+    font-size: 1.5em;
+}
+.info-box-content p {
+    font-size: 1em;
+}
+.item-box {
+    border: 1px solid gray;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    margin-top: 150px;
+    background: white;
+
+}
+/* company info section end */
+
+/* skill section start */
+#our-skills {
+    padding-top: 270px;    
+}
+
+.skill-header  {
+    
+    font-size: 2em;
+    font-weight: 500;
+    
+}
+.skill-action button {
+    color: #ffff;
+    border: 1px solid #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    background-color: #BA43FC;
+    font-size: 1em;
+}
+
+.skill-desc p {
+    padding: 30px 0px;
+
+}
+/* skill section end */
+
+/* get more info section start */
+#get-more-info {
+    padding-top: 70px;
+}
+
+.common-content {
+    position: relative;
+    padding-left: 130px;
+    
+}
+
+.question-icon i {
+    position: absolute;
+    top: -4px;
+    left: 33px;
+    color: #6852ED;
+    font-size: 2.5em;
+    
+}
+.question-heading {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+.question-desc p {
+    padding: 20px 0px;    
+}
+.question-action button {
+    font-size: 1.1em;
+    
+}
+.question-action i {
+    padding-left: 20px;
+}
+/* get more info section end */
+
+/* subscribe section start */
+
+#subscribe {
+    padding: 120px 0px;
+}
+.subscribe-box-content {
+    border: 1px solid #6852ED;
+    border-radius: 10px;
+    padding: 50px 0px;
+    background: #6852ED;
+    position: relative;
+}
+.subscribe-content {
+    color: #FFFF;
+    position: absolute;
+    top: 28px;
+    left: 106px;
+   
+}
+.subscribe-icon i {
+    position: absolute;
+    top: 23px;
+    left: 31px;
+    font-size: 3.5em;
+    color: #FFFF;
+}
+
+.subscribe-action button {
+    color: #FFFF;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border: 1px solid #BA43FC;
+    background: #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 1.1em;
+}
+/* subscribe section end */
+
+/* last section section start */
+#last-section {
+    padding-bottom: 100px;
+}
+
+.brand {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.brand-info span {
+    
+    padding: 15px;
+    color: #554D89;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+.brand-info p {
+    font-size: 1.1em;
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+}
+.loc-icon i {
+    color: #6852ED;
+}
+.message-icon i{
+    color: #6852ED;
+}
+.phone-icon i {
+    color: #6852ED;
+}
+.links li{ 
+    list-style-type: none;
+
+}
+.links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    
+}
+.links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+.contact-info {
+    padding: 0px 80px;
+    padding-top: 15px;
+}
+
+
+.phone-icon {
+    padding: 10px 0px;
+}
+.contact-info i{
+    padding-right: 15px;
+}
+
+.contact-desc {
+    font-size: 1.1em;
+}
+.contact-info h3 {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+    
+.links h3 {
+    padding-bottom: 20px; 
+    font-weight: bold;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.other-links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    
+}
+.other-links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.other-links li{ 
+    list-style-type: none;
+
+}
+
+.other-links {
+    padding-top: 20px;
+}
+/* last section section end */
+
+
+
     
 
     

@@ -270,8 +270,10 @@ padding: 40px 0px;
     color:  #554D89;
 }
 /* solution section end */
+
+/* financial section start */
 #financial {
-    margin-top: 180px;
+    margin-top: 200px;
 }
 .financial-description {
     padding: 40px 0px;
@@ -367,7 +369,6 @@ padding: 40px 0px;
     /* feedback section end */
 
     /* offers section start */
-
     
     .detail-header {
         padding: 20px 0px;
@@ -536,7 +537,7 @@ padding: 40px 0px;
 /* subscribe section start */
 
 #subscribe {
-    padding: 80px 0px;
+    padding: 120px 0px;
 }
 .subscribe-box-content {
     border: 1px solid #6852ED;
