@@ -155,7 +155,12 @@
 
 /* all services section start */
 #all-services {
-    padding-top: 120px;
+    padding-top: 130px;
+    
+    
+}
+.services {
+    padding-bottom: 20px;
 }
 
 
@@ -176,16 +181,208 @@
 
 }
 
+.service-image {
+    padding-top: 20px;
+}
 
 .service-image img {
-    background-position: center;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 300px;
+    width: 360px;
+    height: 270px;    
     border: 1px solid gray;
-    
+    object-fit: cover;
+    border-radius: 5px;   
 
 }
+/* all services section end */
+
+/* get more info section start */
+#get-more-info {
+    padding-top: 120px;
+}
+
+.common-content {
+    position: relative;
+    padding-left: 130px;
+    
+}
+
+.question-icon i {
+    position: absolute;
+    top: -4px;
+    left: 33px;
+    color: #6852ED;
+    font-size: 2.5em;
+    
+}
+.question-heading {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+.question-desc p {
+    padding: 20px 0px;    
+}
+.question-action button {
+    font-size: 1.1em;
+    
+}
+.question-action i {
+    padding-left: 20px;
+}
+/* get more info section end */
+
+/* subscribe section start */
+
+#subscribe {
+    padding: 120px 0px;
+}
+.subscribe-box-content {
+    border: 1px solid #6852ED;
+    border-radius: 10px;
+    padding: 50px 0px;
+    background: #6852ED;
+    position: relative;
+}
+.subscribe-content {
+    color: #FFFF;
+    position: absolute;
+    top: 28px;
+    left: 106px;
+   
+}
+.subscribe-icon i {
+    position: absolute;
+    top: 23px;
+    left: 31px;
+    font-size: 3.5em;
+    color: #FFFF;
+}
+
+.subscribe-action button {
+    color: #FFFF;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border: 1px solid #BA43FC;
+    background: #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 1.1em;
+}
+/* subscribe section end */
+
+/* last section section start */
+#last-section {
+    padding-bottom: 100px;
+}
+
+.brand {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.brand-info span {
+    
+    padding: 15px;
+    color: #554D89;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+.brand-info p {
+    font-size: 1.1em;
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+}
+.loc-icon i {
+    color: #6852ED;
+}
+.message-icon i{
+    color: #6852ED;
+    padding-right: 10px;
+}
+.phone-icon i {
+    color: #6852ED;
+    padding-right: 10px;
+}
+.links li{ 
+    list-style-type: none;
+
+}
+.links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    
+}
+.links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+.contact-info {
+    padding: 0px 80px;
+    padding-top: 15px;
+}
+
+
+.phone-icon {
+    padding: 10px 0px;
+    padding-right: 10px;
+}
+.contact-info i{
+    padding-right: 15px;
+    
+}
+
+.contact-desc {
+    font-size: 1.1em;
+    
+}
+.contact-info h3 {
+    padding-bottom: 20px;
+    font-weight: bold;
+
+}
+    
+.links h3 {
+    padding-bottom: 20px; 
+    font-weight: bold;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.other-links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    
+}
+.other-links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.other-links li{ 
+    list-style-type: none;
+
+}
+
+.other-links {
+    padding-top: 20px;
+}
+/* last section section end */
+
+
 
 
 

@@ -472,12 +472,15 @@
 }
 .loc-icon i {
     color: #6852ED;
+    padding-right: 10px;
 }
 .message-icon i{
     color: #6852ED;
+    padding-right: 10px;
 }
 .phone-icon i {
     color: #6852ED;
+    padding-right: 10px;
 }
 .links li{ 
     list-style-type: none;
