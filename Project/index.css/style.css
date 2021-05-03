@@ -553,12 +553,17 @@ padding: 40px 0px;
     left: 106px;
    
 }
+
+.subscribe-content h3 {
+    font-weight: normal;
+}
 .subscribe-icon i {
     position: absolute;
     top: 23px;
     left: 31px;
     font-size: 3.5em;
     color: #FFFF;
+    ;
 }
 
 .subscribe-action button {

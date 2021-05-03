@@ -39,9 +39,10 @@
 
 .news-item:first-child h3 {
     position: absolute;
-    top: 332px;
-    left: 54px;
+    top: 300px;
+    left: 45px;
     color: #ffff;
+    font-size: 2em;
     
 
 }

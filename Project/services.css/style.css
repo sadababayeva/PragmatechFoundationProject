@@ -419,6 +419,9 @@
     left: 106px;
    
 }
+.subscribe-content h3 {
+    font-weight: normal;
+}
 .subscribe-icon i {
     position: absolute;
     top: 23px;
