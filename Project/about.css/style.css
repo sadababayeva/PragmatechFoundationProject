@@ -191,7 +191,7 @@
 }
 /* company info section end */
 
-/* skill section start */
+/* skills section start */
 #our-skills {
     padding-top: 270px;    
 }
@@ -215,7 +215,21 @@
     padding: 30px 0px;
 
 }
-/* skill section end */
+
+.skills-bar{
+    width: 570px;
+    height: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.progress {
+    width: 500px;
+    height: 15px;
+    background: #6852ED;
+    text-align: right;
+}
+/* skills section end */
 
 /* get more info section start */
 #get-more-info {
