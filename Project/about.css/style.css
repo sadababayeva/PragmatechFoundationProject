@@ -215,19 +215,127 @@
     padding: 30px 0px;
 
 }
-
-.skills-bar{
-    width: 570px;
-    height: 15px;
-    border: 1px solid gray;
-    border-radius: 5px;
+.progress-section {
+    position: relative;
 }
 
-.progress {
+.skills-bar-1{
+    width: 520px;
+    height: 13px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.skills-bar-2{
+    width: 520px;
+    height: 13px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 60px 0px;
+}
+.skills-bar-3{
+    width: 520px;
+    height: 13px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.skills-bar-4{
+    width: 520px;
+    height: 13px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 60px 0px;
+}
+
+.progress-1 {
     width: 500px;
-    height: 15px;
+    height: 13px;
     background: #6852ED;
     text-align: right;
+    border-radius: 10px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+}
+.progress-2 {
+    width: 420px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 10px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+    
+}
+.progress-3 {
+    width: 490px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 10px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+}
+.progress-4 {
+    width: 475px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 10px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+
+}
+
+.skills-bar-1 h4 {
+    position: absolute;
+    top: -27px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-2 h4 {
+    position: absolute ;
+    top: 47px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-3 h4 {
+    position: absolute;
+    top: 124px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-4 h4 {
+    position: absolute;
+    top: 199px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-1 span {
+    position: absolute;
+    top: -2px;
+    left: 450px;
+}
+.skills-bar-2 span {
+    position: absolute;
+    top: -2px;
+    left: 375px;
+}
+.skills-bar-3 span {
+    position: absolute;
+    top: -2px;
+    left: 444px;
+}
+.skills-bar-4 span {
+    position: absolute;
+    top: -2px;
+    left: 430px; 
 }
 /* skills section end */
 
