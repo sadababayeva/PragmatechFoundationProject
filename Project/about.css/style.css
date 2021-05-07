@@ -32,6 +32,7 @@
         display: flex;
         justify-content: center;
         height: 100%;
+        
     }
     .nav ul li{ 
         list-style-type: none;
@@ -42,6 +43,7 @@
         text-decoration: none;
         color: #5B5766;
         font-family: 'Nunito', sans-serif;
+        cursor: pointer;
     
     }
     .search {
@@ -54,6 +56,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        cursor: pointer;
     }
     /* top-nav section end */
 
@@ -100,7 +103,8 @@
         position: absolute;
         top: 802px;
         left: 663px;     
-        color: #fff;       
+        color: #fff;     
+        cursor: pointer;  
         
     }
 
@@ -124,13 +128,16 @@
 }
 .section-action button {
     font-size: 1.1em;
+    cursor: pointer;
 }
 .section-action i {
     padding-left: 10px;
 }
 .section-text span {
     padding-top: 20px;
+    color: #716C80;
 }
+
 
   /* brand info end */  
 
@@ -187,7 +194,11 @@
     height: 250px;
     margin-top: 150px;
     background: white;
+    cursor: pointer;
 
+}
+.item-box:hover {
+    box-shadow: 0px 0px 5px #6852ED;
 }
 /* company info section end */
 
@@ -207,8 +218,13 @@
     border: 1px solid #BA43FC;
     border-radius: 20px;
     padding: 8px 40px;
-    background-color: #BA43FC;
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);;
     font-size: 1em;
+}
+
+.skill-action button:hover{
+    background: #BA43FC;
 }
 
 .skill-desc p {
@@ -416,7 +432,16 @@
     border-radius: 20px;
     padding: 8px 40px;
     font-size: 1.1em;
+    cursor: pointer;
+    background: rgb(104,82,237);
+    background: linear-gradient(100deg, rgba(104,82,237,1) 0%, rgba(167,37,232,1) 100%);
+
 }
+
+.subscribe-action button:hover {
+    background: #BA43FC;
+}
+
 /* subscribe section end */
 
 /* last section section start */
@@ -469,6 +494,7 @@
     text-decoration: none;
     color: #6852ED;    
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
     
 }
 .links ul li {

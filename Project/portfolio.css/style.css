@@ -345,7 +345,16 @@
     border-radius: 20px;
     padding: 8px 40px;
     font-size: 1.1em;
+    cursor: pointer;
+    background: rgb(104,82,237);
+    background: linear-gradient(100deg, rgba(104,82,237,1) 0%, rgba(167,37,232,1) 100%);
+
 }
+
+.subscribe-action button:hover {
+    background: #BA43FC;
+}
+
 /* subscribe section end */
 
 /* last section section start */
