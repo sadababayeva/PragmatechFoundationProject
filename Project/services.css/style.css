@@ -1,5 +1,5 @@
 
- /* top-nav section start */
+/* top-nav section start */
  #top-nav {
     padding: 40px 0px;
     }
@@ -55,10 +55,14 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        cursor: pointer;
+    }
+    .search i:hover {
+        color: #6852ed;
     }
     /* top-nav section end */
     
-    /* Slider section start */
+    /* slider section start */
     
     .slide {
         padding: 200px 0px;
@@ -95,9 +99,9 @@
         border: 1px solid white;
         border-radius: 20px;
     }
-    /* slider section end */
+/* slider section end */
 
-    /* work section start */
+/* work section start */
 #work {
     padding: 30px 0px;
 }
@@ -132,21 +136,27 @@
     
 }
 .order-button button{
-    border: 1px solid #BA43FC;
-    background: #BA43FC;
+    border: 1px solid rgb(141,37,232);
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);
     color: #FFFF;
     border-radius: 25px;
     font-size: 1.1em;
     padding: 10px 40px;    
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;   
+    cursor: pointer;
 
 }
+.order-button button:hover {
+    background: #BA43FC;
+}
+
 .help-button button {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     margin-left: 20px;
     color:  #554D89;
+    cursor: pointer;
 } 
 
 .help-button i {
@@ -168,7 +178,7 @@
     top: 802px;
     left: 713px;     
     color: #fff;       
-    
+    cursor: pointer;
 }
 
 .circle i{
@@ -208,23 +218,29 @@
     align-items: center;
     
 }
-.solution-button-1 button{
-    border: 1px solid #BA43FC;
-    background: #BA43FC;
+.solution-button-1 button{  
     color: #FFFF;
     border-radius: 20px;
     font-size: 1em;
     padding: 10px 40px;
     /* width: 100%; */
     font-family: 'Poppins', sans-serif;
-    
+    border: 1px solid rgb(141,37,232);
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);    
+    cursor: pointer;
 
 }
+.solution-button-1 button:hover {
+    background: #BA43FC;
+}
+
 .solution-button-2 button {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     margin-left: 20px;
     color:  #554D89;
+    cursor: pointer;
 } 
 
 .solution-button-2 i {
@@ -267,22 +283,28 @@
     align-items: center;
     
 }
-.financial-button-1 button{
-    border: 1px solid #BA43FC;
-    background: #BA43FC;
+.financial-button-1 button{    
     color: #FFFF;
     border-radius: 20px;
     font-size: 1em;
     padding: 10px 40px;
     /* width: 100%; */
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;  
+    border: 1px solid rgb(141,37,232);
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%); 
+    cursor: pointer;
 
+}
+.financial-button-1 button:hover{
+    background: #BA43FC;
 }
 .financial-button-2 button {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     margin-left: 20px;
     color:  #554D89;
+    cursor: pointer;
 } 
 
 .financial-button-2 i {
@@ -319,21 +341,27 @@
     align-items: center;
     
 }
-.trend-button-1 button{
-    border: 1px solid #BA43FC;
-    background: #BA43FC;
+.trend-button-1 button{    
     color: #FFFF;
     border-radius: 20px;
     font-size: 1em;
     padding: 10px 40px;    
     font-family: 'Poppins', sans-serif;
-    
+    border: 1px solid rgb(141,37,232);
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);
+    cursor: pointer;
+}
+.trend-button-1 button:hover{
+    background: #BA43FC;
+
 }
 .trend-button-2 button {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     margin-left: 20px;
     color:  #554D89;
+    cursor: pointer;
 } 
 
 .trend-button-2 i {
@@ -375,22 +403,27 @@
     align-items: center;
     
 }
-.management-button-1 button{
-    border: 1px solid #BA43FC;
-    background: #BA43FC;
+.management-button-1 button{    
     color: #FFFF;
     border-radius: 20px;
     font-size: 1em;
     padding: 10px 40px;    
     font-family: 'Poppins', sans-serif;
-    
+    border: 1px solid rgb(141,37,232);
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);
+    cursor: pointer;
 
+}
+.management-button-1 button:hover {
+    background: #BA43FC;
 }
 .management-button-2 button {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     margin-left: 20px;
     color:  #554D89;
+    cursor: pointer;
 } 
 
 .management-button-2 i {
@@ -503,7 +536,12 @@
     text-decoration: none;
     color: #6852ED;    
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
     
+}
+.links ul li a:hover{
+    color: #EF7171;
+
 }
 .links ul li {
     padding-bottom: 15px;
@@ -543,7 +581,11 @@
     text-decoration: none;
     color: #6852ED;    
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
     
+}
+.other-links ul li a:hover {
+    color: #EF7171;
 }
 .other-links ul li {
     padding-bottom: 15px;

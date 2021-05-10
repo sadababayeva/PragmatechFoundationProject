@@ -58,6 +58,9 @@
         justify-content: flex-end;
         cursor: pointer;
     }
+    .search i:hover {
+        color: #6852ed;
+    }
     /* top-nav section end */
 
     /* slider section start */
@@ -122,26 +125,27 @@
 
 .section-desc  {
     padding-bottom: 30px;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 2.2em;
+    font-weight: bolder;
+
 
 }
 .section-action button {
-    font-size: 1.1em;
+    font-size: 1.2em;
     cursor: pointer;
 }
 .section-action i {
     padding-left: 10px;
 }
 .section-text span {
-    padding-top: 20px;
-    color: #716C80;
+    font-size: 1.3em;
 }
 
 
-  /* brand info end */  
 
-  /* company-info section start */
+/* brand info end */  
+
+/* company-info section start */
 
 #company-info {
     padding: 50px 0px
@@ -156,13 +160,16 @@
     
 
 }
-.info-icon {
-    color: #6852ed;
+.info-icon i {    
+    color: rgb(104,82,237);
+    color: linear-gradient(100deg, rgba(104,82,237,1) 0%, rgba(167,37,232,1) 100%);
     padding-top: 35px;
     margin: 30px 0px;
-    font-size: 5em;
+    font-size: 5em;  
     
 }
+
+
 .info-header {
     margin: 20px 0px;
     font-size: 2.3em;
@@ -177,10 +184,15 @@
     margin: 20px 0px;
     font-size: 3em;
     font-size: 400;
+    
 }
+
 .info-box-header {
     margin: 15px 0px;
     font-size: 1.5em;
+}
+.info-box-header:hover{
+    color: #EF7171;
 }
 .info-box-content p {
     font-size: 1em;
@@ -221,6 +233,7 @@
     background: rgb(141,37,232);
     background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);;
     font-size: 1em;
+    cursor: pointer;
 }
 
 .skill-action button:hover{
@@ -233,72 +246,81 @@
 }
 .progress-section {
     position: relative;
+    margin-left: 50px;
 }
 
 .skills-bar-1{
-    width: 520px;
+    width: 630px;
     height: 13px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(225, 228, 237, 0.65);
 }
 .skills-bar-2{
-    width: 520px;
+    width: 630px;
     height: 13px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
     margin: 60px 0px;
+    background-color: rgba(225, 228, 237, 0.65);
 }
 .skills-bar-3{
-    width: 520px;
+    width: 630px;
     height: 13px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(225, 228, 237, 0.65);
 }
 .skills-bar-4{
-    width: 520px;
+    width: 630px;
     height: 13px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(225, 228, 237, 0.65);
     margin: 60px 0px;
 }
 
 .progress-1 {
-    width: 500px;
+    width: 600px;
     height: 13px;
     background: #6852ED;
     text-align: right;
-    border-radius: 10px;
+    border-radius: 25px;
     position: relative;
     color: #ffff;
     font-size: 12px;
 }
 .progress-2 {
-    width: 420px;
+    width: 530px;
     height: 13px;
     background: #6852ED;
     text-align: right;
-    border-radius: 10px;
+    border-radius: 25px;
     position: relative;
     color: #ffff;
     font-size: 12px;
     
 }
 .progress-3 {
-    width: 490px;
+    width: 590px;
     height: 13px;
     background: #6852ED;
     text-align: right;
-    border-radius: 10px;
+    border-radius: 25px;
     position: relative;
     color: #ffff;
     font-size: 12px;
 }
 .progress-4 {
-    width: 475px;
+    width: 565px;
     height: 13px;
     background: #6852ED;
     text-align: right;
-    border-radius: 10px;
+    border-radius: 25px;
     position: relative;
     color: #ffff;
     font-size: 12px;
@@ -336,22 +358,22 @@
 .skills-bar-1 span {
     position: absolute;
     top: -2px;
-    left: 450px;
+    left: 559px;
 }
 .skills-bar-2 span {
     position: absolute;
     top: -2px;
-    left: 375px;
+    left: 487px;
 }
 .skills-bar-3 span {
     position: absolute;
     top: -2px;
-    left: 444px;
+    left: 548px;
 }
 .skills-bar-4 span {
     position: absolute;
     top: -2px;
-    left: 430px; 
+    left: 525px;
 }
 /* skills section end */
 
@@ -372,19 +394,33 @@
     left: 33px;
     color: #6852ED;
     font-size: 2.5em;
+    transform: scale(1);
+    cursor: pointer;
     
+}
+.question-icon i:hover{
+    transform: scale(.9);
+    color: #BA43FC;
+    transition: all .8s ease;
 }
 .question-heading {
     font-size: 1.1em;
     font-weight: 500;
 }
-
+.question-heading h3:hover{
+    color: #EF7171;
+    
+}
+.question-heading h3 {
+    cursor: pointer;
+}
 
 .question-desc p {
     padding: 20px 0px;    
 }
 .question-action button {
     font-size: 1.1em;
+    cursor: pointer;
     
 }
 .question-action i {
@@ -460,7 +496,7 @@
 .brand-info span {
     
     padding: 15px;
-    color: #554D89;
+    /* color: #554D89; */
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
     font-weight: 700;
@@ -496,6 +532,10 @@
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     
+}
+.links ul li a:hover{
+    color: #EF7171;
+
 }
 .links ul li {
     padding-bottom: 15px;
@@ -535,7 +575,11 @@
     text-decoration: none;
     color: #6852ED;    
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
     
+}
+.other-links ul li a:hover {
+    color: #EF7171;
 }
 .other-links ul li {
     padding-bottom: 15px;

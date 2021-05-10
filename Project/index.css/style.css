@@ -57,6 +57,9 @@ padding: 40px 0px;
     justify-content: flex-end;
     cursor: pointer;
 }
+.search i:hover {
+    color: #6852ed;
+}
 /* top-nav section end */
 
 /* Slider section start */
@@ -96,6 +99,11 @@ padding: 40px 0px;
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.slide-button button:hover {
+    background: #FFFFFF;
+    color: #6852ED;
 }
 /* slider section end */
 
@@ -171,6 +179,7 @@ padding: 40px 0px;
 .service-button button {
     color: white;
     font-size: 1em;
+    cursor: pointer;
 
 }
 /* service section end */
@@ -213,6 +222,17 @@ color: #6852ED;
     margin: 30px 0px;
     font-size: 4em;
     font-size: 400;
+    position: relative;
+}
+.info-box-number::after{
+    content: " ";
+    height: 1px;
+    width: 110px;
+    background: #BA43FC ;
+    display: block;
+    position: absolute;
+    left: 131px;
+    top: 84px;
 }
 .info-box-header {
     margin: 15px 0px;
@@ -227,7 +247,7 @@ color: #6852ED;
     box-shadow: 0px 0px 5px gray;
     border-radius: 10px;
     text-align: center;
-    height: 300px;
+    height: 300px;    
     margin-top: 150px;
     background: white;
     cursor: pointer;
@@ -264,6 +284,7 @@ color: #6852ED;
     display: flex;
     justify-content: flex-start ;
     align-items: center;
+    cursor: pointer;
     
 }
 .solution-button-1 button{
@@ -276,6 +297,7 @@ color: #6852ED;
     padding: 10px 40px;
     /* width: 100%; */
     font-family: 'Poppins', sans-serif;    
+    cursor: pointer;
 
 }
 
@@ -289,12 +311,14 @@ color: #6852ED;
     font-size: 1em;
     margin-left: 20px;
     color:  #554D89;
+    cursor: pointer;
 } 
 
 .solution-button-2 i {
     padding-left: 10px;
     color:  #554D89;
 }
+
 /* solution section end */
 
 /* financial section start */
@@ -405,6 +429,10 @@ color: #6852ED;
         padding-left: 50px;
         
     }
+    .detail-icon i:hover{
+        color: #BA43FC;
+    }
+
     .detail-icon {
         color: #6852ed;
         font-size: 2.2em;
@@ -446,13 +474,19 @@ color: #6852ED;
     }
 
     .call-to-action button {
-        padding: 8px 45px;
+        padding: 8px 35px;
         color: #FFFFFF;
         border: 1px solid #EF7171;
         border-radius: 20px;
-        background: #EF7171;
+        background: rgb(239,113,113);
+        background: linear-gradient(100deg, rgba(239,113,113,1) 0%, rgba(239,157,113,1) 100%);
         font-size: 1.1em;
+        cursor: pointer;
 
+    }
+
+    .call-to-action button:hover{
+        background:#EF7171 ;
     }
 
     .question {
@@ -508,7 +542,8 @@ color: #6852ED;
     border-radius: 25px;
     font-size: 1em;
     padding: 10px 40px;    
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;  
+    cursor: pointer; 
 
 }
 
@@ -547,13 +582,27 @@ color: #6852ED;
     left: 33px;
     color: #6852ED;
     font-size: 2.5em;
+    transform: scale(1);
+    cursor: pointer;
     
+}
+
+.question-icon i:hover{
+    transform: scale(.9);
+    color: #BA43FC;
+    transition: all .8s ease;
 }
 .question-heading {
     font-size: 1.1em;
     font-weight: 500;
 }
-
+.question-heading h3:hover{
+    color: #EF7171;
+    
+}
+.question-heading h3 {
+    cursor: pointer;
+}
 
 .question-desc p {
     padding: 20px 0px;    
@@ -597,7 +646,7 @@ color: #6852ED;
     left: 31px;
     font-size: 3.5em;
     color: #FFFF;
-    ;
+    
 }
 
 .subscribe-action button {
@@ -668,7 +717,13 @@ color: #6852ED;
     text-decoration: none;
     color: #6852ED;    
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
     
+}
+
+.links ul li a:hover{
+    color: #EF7171;
+
 }
 .links ul li {
     padding-bottom: 15px;
@@ -712,8 +767,14 @@ color: #6852ED;
     text-decoration: none;
     color: #6852ED;    
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
     
 }
+
+.other-links ul li a:hover {
+    color: #EF7171;
+}
+
 .other-links ul li {
     padding-bottom: 15px;
     font-size: 1.1em;
