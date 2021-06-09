@@ -68,7 +68,7 @@ let a = prompt('Ad : ')
 let b = prompt('Soyad : ')
 
 if(a=="" || b==""){
-    alert('Melumatlari duzgun daxil edin')
+    alert('Bosdur')
 }
 
 else{
@@ -102,8 +102,8 @@ loop()
 
 // 4. task
 
-let a=prompt('a ededini daxil edin : ')
-let b=prompt('b ededini daxil edin : ')
+let a=prompt('a ededini daxil edin : ') 
+let b=prompt('b ededini daxil edin : ') 
 
 let c;
 
