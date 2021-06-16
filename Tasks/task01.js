@@ -26,32 +26,43 @@ function CutEdedSayiniTap(){
 CutEdedSayiniTap()
 
 let cem=0
+
 function EdedlerinCeminiTap(){
     for(i=0;i<arr.length;i++){
         cem=cem+arr[i]
       
     }
-console.log(`Massivdeki ededlerin cemi ${cem}-dir`)    
+ console.log(`Massivdeki ededlerin cemi ${cem}-dir`)    
 }
 
 EdedlerinCeminiTap()
 
 let sum = 0;
-for(i = arr.length - 1; i >= arr.length - 4; i--){
-    sum += arr[i]
-}
 
-console.log(sum)
+function son4ElementinCemi(){
+    for(i = arr.length - 1; i >= arr.length - 4; i--){
+        sum += arr[i]
+    }
+    
+    console.log(sum)
+} 
+
+son4ElementinCemi()
+
 
 
 let enBoyukEded = arr[0];
-for(i = 0; i < arr.length; i++){
-    if(arr[i]>=enBoyukEded){
-        enBoyukEded = arr[i]
+
+function enBoyukEded(){
+    for(i = 0; i < arr.length; i++){
+        if(arr[i]>=enBoyukEded){
+            enBoyukEded = arr[i]
+        }
     }
+    
+    console.log(enBoyukEded)
 }
 
-console.log(enBoyukEded)
 
 
 
