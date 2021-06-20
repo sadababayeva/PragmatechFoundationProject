@@ -1,0 +1,603 @@
+
+  /* top-nav section start */
+   #top-nav {
+    padding: 40px 0px;
+    }
+    .nav-brand {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-brand span {
+        margin: 0px 10px;
+        padding: 5px;
+        color: #554D89;
+        font-family: 'Nunito', sans-serif;
+        font-size: 700;
+        font-weight: 600;
+    
+    }
+    
+    .nav-brand img {
+        width: 40px;
+        height: 40px;
+    }
+    .nav {
+        height: 100%;
+        
+    }
+    
+    .nav ul {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        
+    }
+    .nav ul li{ 
+        list-style-type: none;
+    
+    }
+    .nav ul li a {
+        padding: 0px 25px;
+        text-decoration: none;
+        color: #5B5766;
+        font-family: 'Nunito', sans-serif;
+        cursor: pointer;
+    
+    }
+    .search {
+        color: black;
+        border: 1px solid gray;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-align: right;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    .search i:hover {
+        color: #6852ed;
+    }
+    /* top-nav section end */
+
+    /* slider section start */
+
+    #slider {
+        padding-bottom: 120px;
+    }
+    .slide {
+        padding: 430px 0px;
+        background-image: url(../img/portrait-of-businesspeople-standing-with-arms-7LWEQFP-2.jpg);
+        background-size: cover;
+        background-position: center center;        
+        position: relative;
+    }
+
+    .slide-content {
+        text-align: center;      
+                
+    }
+    .slide-heading {    
+        position: absolute;
+        top: 552px;
+        left: 552px;
+        color: #fff;
+
+    }
+
+    .slide-heading h1 {
+        font-size: 3.5em;
+    }
+     
+    .slide-description span {
+        font-size: 1.5em;
+    }
+    
+    .circle {
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border: 1px solid  #6852ED;
+        background:  #6852ED;       
+        position: absolute;
+        top: 802px;
+        left: 663px;     
+        color: #fff;     
+        cursor: pointer;  
+        
+    }
+
+    .circle i{
+        padding-top: 37px;
+        font-size: 1.5em;
+    }
+
+/* slider section end */
+
+/* brand info start */
+#brand {
+    padding-bottom: 130px;
+}
+
+.section-desc  {
+    padding-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: bolder;
+
+
+}
+.section-action button {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.section-action i {
+    padding-left: 10px;
+}
+.section-text span {
+    font-size: 1.3em;
+}
+
+
+
+/* brand info end */  
+
+/* company-info section start */
+
+#company-info {
+    padding: 50px 0px
+}
+
+.more-info {
+    height: 600px;
+    background-image: url(../img/handsome-businessman-ceo-working-in-office-VS3T25R.jpg);
+    background-size: cover;        
+    background-position: center;
+    box-sizing: border-box;
+    
+
+}
+.info-icon i {    
+    color: rgb(104,82,237);
+    color: linear-gradient(100deg, rgba(104,82,237,1) 0%, rgba(167,37,232,1) 100%);
+    padding-top: 35px;
+    margin: 30px 0px;
+    font-size: 5em;  
+    
+}
+
+
+.info-header {
+    margin: 20px 0px;
+    font-size: 2.3em;
+    font-weight: 510;
+}
+.info-content {
+    margin: 30px 0px;
+}
+
+.info-box-icon {
+    color:  #BA43FC;
+    margin: 20px 0px;
+    font-size: 3em;
+    font-size: 400;
+    
+}
+
+.info-box-header {
+    margin: 15px 0px;
+    font-size: 1.5em;
+}
+.info-box-header:hover{
+    color: #EF7171;
+}
+.info-box-content p {
+    font-size: 1em;
+}
+.item-box {
+    border: 1px solid gray;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    margin-top: 150px;
+    background: white;
+    cursor: pointer;
+
+}
+.item-box:hover {
+    box-shadow: 0px 0px 5px #6852ED;
+}
+/* company info section end */
+
+/* skills section start */
+#our-skills {
+    padding-top: 270px;    
+}
+
+.skill-header  {
+    
+    font-size: 2em;
+    font-weight: 500;
+    
+}
+.skill-action button {
+    color: #ffff;
+    border: 1px solid #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    background: rgb(141,37,232);
+    background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.skill-action button:hover{
+    background: #BA43FC;
+}
+
+.skill-desc p {
+    padding: 30px 0px;
+
+}
+.progress-section {
+    position: relative;
+    margin-left: 50px;
+}
+
+.skills-bar-1{
+    width: 630px;
+    height: 13px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(225, 228, 237, 0.65);
+}
+.skills-bar-2{
+    width: 630px;
+    height: 13px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 60px 0px;
+    background-color: rgba(225, 228, 237, 0.65);
+}
+.skills-bar-3{
+    width: 630px;
+    height: 13px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(225, 228, 237, 0.65);
+}
+.skills-bar-4{
+    width: 630px;
+    height: 13px;
+    border: 1px solid rgba(225, 228, 237, 0.65);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(225, 228, 237, 0.65);
+    margin: 60px 0px;
+}
+
+.progress-1 {
+    width: 600px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 25px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+}
+.progress-2 {
+    width: 530px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 25px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+    
+}
+.progress-3 {
+    width: 590px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 25px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+}
+.progress-4 {
+    width: 565px;
+    height: 13px;
+    background: #6852ED;
+    text-align: right;
+    border-radius: 25px;
+    position: relative;
+    color: #ffff;
+    font-size: 12px;
+
+}
+
+.skills-bar-1 h4 {
+    position: absolute;
+    top: -27px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-2 h4 {
+    position: absolute ;
+    top: 47px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-3 h4 {
+    position: absolute;
+    top: 124px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-4 h4 {
+    position: absolute;
+    top: 199px;
+    left: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.skills-bar-1 span {
+    position: absolute;
+    top: -2px;
+    left: 559px;
+}
+.skills-bar-2 span {
+    position: absolute;
+    top: -2px;
+    left: 487px;
+}
+.skills-bar-3 span {
+    position: absolute;
+    top: -2px;
+    left: 548px;
+}
+.skills-bar-4 span {
+    position: absolute;
+    top: -2px;
+    left: 525px;
+}
+/* skills section end */
+
+/* get more info section start */
+#get-more-info {
+    padding-top: 70px;
+}
+
+.common-content {
+    position: relative;
+    padding-left: 130px;
+    
+}
+
+.question-icon i {
+    position: absolute;
+    top: -4px;
+    left: 33px;
+    color: #6852ED;
+    font-size: 2.5em;
+    transform: scale(1);
+    cursor: pointer;
+    
+}
+.question-icon i:hover{
+    transform: scale(.9);
+    color: #BA43FC;
+    transition: all .8s ease;
+}
+.question-heading {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.question-heading h3:hover{
+    color: #EF7171;
+    
+}
+.question-heading h3 {
+    cursor: pointer;
+}
+
+.question-desc p {
+    padding: 20px 0px;    
+}
+.question-action button {
+    font-size: 1.1em;
+    cursor: pointer;
+    
+}
+.question-action i {
+    padding-left: 20px;
+}
+/* get more info section end */
+
+/* subscribe section start */
+
+#subscribe {
+    padding: 120px 0px;
+}
+.subscribe-box-content {
+    border: 1px solid #6852ED;
+    border-radius: 10px;
+    padding: 50px 0px;
+    background: #6852ED;
+    position: relative;
+}
+.subscribe-content {
+    color: #FFFF;
+    position: absolute;
+    top: 28px;
+    left: 106px;
+   
+}
+.subscribe-content h3 {
+    font-weight: normal;
+}
+.subscribe-icon i {
+    position: absolute;
+    top: 23px;
+    left: 31px;
+    font-size: 3.5em;
+    color: #FFFF;
+}
+
+.subscribe-action button {
+    color: #FFFF;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border: 1px solid #BA43FC;
+    background: #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: rgb(104,82,237);
+    background: linear-gradient(100deg, rgba(104,82,237,1) 0%, rgba(167,37,232,1) 100%);
+
+}
+
+.subscribe-action button:hover {
+    background: #BA43FC;
+}
+
+/* subscribe section end */
+
+/* last section section start */
+#last-section {
+    padding-bottom: 100px;
+}
+
+.brand {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.brand-info span {
+    
+    padding: 15px;
+    /* color: #554D89; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+.brand-info p {
+    font-size: 1.1em;
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+}
+.loc-icon i {
+    color: #6852ED;
+    padding-right: 10px;
+}
+.message-icon i{
+    color: #6852ED;
+    padding-right: 10px;
+}
+.phone-icon i {
+    color: #6852ED;
+    padding-right: 10px;
+}
+.links li{ 
+    list-style-type: none;
+
+}
+.links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    
+}
+.links ul li a:hover{
+    color: #EF7171;
+
+}
+.links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+.contact-info {
+    padding: 0px 80px;
+    padding-top: 15px;
+}
+
+
+.phone-icon {
+    padding: 10px 0px;
+}
+.contact-info i{
+    padding-right: 15px;
+}
+
+.contact-desc {
+    font-size: 1.1em;
+}
+.contact-info h3 {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+    
+.links h3 {
+    padding-bottom: 20px; 
+    font-weight: bold;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.other-links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    
+}
+.other-links ul li a:hover {
+    color: #EF7171;
+}
+.other-links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.other-links li{ 
+    list-style-type: none;
+
+}
+
+.other-links {
+    padding-top: 20px;
+}
+/* last section section end */
+
+
+
+    
+
+    

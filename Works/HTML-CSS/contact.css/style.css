@@ -1,0 +1,395 @@
+
+/* top-nav section start */
+#top-nav {
+    padding: 40px 0px;
+    }
+    .nav-brand {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-brand span {
+        margin: 0px 10px;
+        padding: 5px;
+        color: #554D89;
+        font-family: 'Nunito', sans-serif;
+        font-size: 700;
+        font-weight: 600;
+    
+    }
+    
+    .nav-brand img {
+        width: 40px;
+        height: 40px;
+    }
+    .nav {
+        height: 100%;
+        
+    }
+    
+    .nav ul {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+    .nav ul li{ 
+        list-style-type: none;
+    
+    }
+    .nav ul li a {
+        padding: 0px 25px;
+        text-decoration: none;
+        color: #5B5766;
+        font-family: 'Nunito', sans-serif;
+        cursor: pointer;
+    
+    }
+    .search {
+        color: black;
+        border: 1px solid gray;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-align: right;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    .search i:hover {
+        color: #6852ed;
+    }
+    /* top-nav section end */
+
+    /* contact us section start */
+
+    #contact {
+        height: 500px;
+        background-image: url(../img/Services-background.jpg);
+        background-size: cover;
+        background-position: center;
+        /* margin-top: 0px; */
+    }
+    .contact-us {
+        margin-top: 150px;
+    }
+    .contact-heading {
+        font-size: 3.5em;
+        font-weight: 500
+    }
+    .contact-desciption{
+        font-size: 1.5em;
+        padding: 20px 0px;
+    }
+    .contact-button { 
+        display: flex;
+        justify-content: flex-start ;
+        align-items: center;
+        
+        
+    }
+    .about-button button{        
+        color: #FFFF;
+        border-radius: 25px;
+        font-size: 1em;
+        padding: 10px 40px;    
+        font-family: 'Poppins', sans-serif;  
+        border: 1px solid rgb(141,37,232);
+        background: rgb(141,37,232);
+        background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);     
+        cursor: pointer;  
+    }
+    .about-button button:hover{
+        background: #BA43FC;
+
+    }
+    .meet-button button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        margin-left: 20px;
+        color:  #554D89;
+        cursor: pointer;
+    } 
+    
+    .meet-button i {
+        padding-left: 15px;
+        color:  #554D89;
+    }
+    /* contact us section end */
+
+    /* office section start */
+
+    #message {
+        padding-top: 90px;
+    }
+
+    .send-message-action button{        
+        color: #FFFF;
+        border-radius: 25px;
+        font-size: 1em;
+        padding: 10px 40px; 
+        border: 1px solid rgb(141,37,232);
+        background: rgb(141,37,232);
+        background: linear-gradient(90deg, rgba(141,37,232,1) 0%, rgba(190,37,232,1) 100%);
+        cursor: pointer;
+
+    }
+    .send-message-action button:hover {
+        background: #BA43FC;
+    }
+
+    .office-header {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .office-desc {
+        padding: 20px 0px;
+    }
+
+    .phone-icon {
+        padding: 10px 0px;
+    }
+    
+
+    .loc-icon i {
+        color: #6852ED;
+        padding-right: 10px;
+    }
+    .message-icon i{
+        color: #6852ED;
+        padding-right: 10px;
+    }
+    .phone-icon i {
+        color: #6852ED;
+        padding-right: 10px;
+    }
+
+    .box-name {
+        border: 1px solid gray;
+        border-radius: 10px;
+        width: 45%;
+        padding: 10px 0px;
+        margin-right: 65px;
+
+    }
+    .box-name span {
+        padding: 0px 20px
+    }
+
+    .box-phone span {
+        padding: 0px 20px
+    }
+    .box-message {
+        padding: 10px 20px
+    }
+
+    .box-phone {
+        border: 1px solid gray;
+        border-radius: 10px;
+        width: 45%;
+        padding: 10px 0px;   
+
+    }
+
+    .two-box {
+        display: flex;
+        padding-top: 30px;
+    }
+
+
+
+    .box-message {
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+
+    .box-message {
+        margin: 30px 0px;
+        /* padding: 50px 30px; */
+        height: 100px;
+    }
+
+    .send-message {
+        padding-left: 125px;
+    }
+
+    /* office section end */
+
+    /* subscribe section start */
+
+#subscribe {
+    padding: 120px 0px;
+}
+.subscribe-box-content {
+    border: 1px solid #6852ED;
+    border-radius: 10px;
+    padding: 50px 0px;
+    background: #6852ED;
+    position: relative;
+}
+.subscribe-content {
+    color: #FFFF;
+    position: absolute;
+    top: 28px;
+    left: 106px;
+   
+}
+.subscribe-content h3 {
+    font-weight: normal;
+}
+.subscribe-icon i {
+    position: absolute;
+    top: 23px;
+    left: 31px;
+    font-size: 3.5em;
+    color: #FFFF;
+}
+
+.subscribe-action button {
+    color: #FFFF;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border: 1px solid #BA43FC;
+    background: #BA43FC;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: rgb(104,82,237);
+    background: linear-gradient(100deg, rgba(104,82,237,1) 0%, rgba(167,37,232,1) 100%);
+
+}
+
+.subscribe-action button:hover {
+    background: #BA43FC;
+}
+
+/* subscribe section end */
+
+ /* last section section start */
+#last-section {
+    padding-bottom: 100px;
+}
+
+.brand {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.brand-info span {
+    
+    padding: 15px;
+    color: #554D89;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+.brand-info p {
+    font-size: 1.1em;
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+}
+.loc-icon i {
+    color: #6852ED;
+}
+.message-icon i{
+    color: #6852ED;
+    padding-right: 10px;
+}
+.phone-icon i {
+    color: #6852ED;
+    padding-right: 10px;
+}
+.links li{ 
+    list-style-type: none;
+
+}
+.links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+.links ul li a:hover{
+    color: #EF7171;
+
+}
+.links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+.contact-info {
+    padding: 0px 80px;
+    padding-top: 15px;
+}
+
+
+.phone-icon {
+    padding: 10px 0px;
+    padding-right: 10px;
+}
+.contact-info i{
+    padding-right: 15px;
+    
+}
+
+.contact-desc {
+    font-size: 1.1em;
+    
+}
+.contact-info h3 {
+    padding-bottom: 20px;
+    font-weight: bold;
+
+}
+    
+.links h3 {
+    padding-bottom: 20px; 
+    font-weight: bold;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.other-links ul li a {    
+    text-decoration: none;
+    color: #6852ED;    
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+.other-links ul li a:hover {
+    color: #EF7171;
+}
+.other-links ul li {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.other-links li{ 
+    list-style-type: none;
+
+}
+
+.other-links {
+    padding-top: 20px;
+}
+/* last section section end */
+
+
+
+
+
+    
+    
+
