@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button {
+        
+            width: 100px;
+            height: 30px;
+            margin: 10px;
+            
+        }
+        
+        p {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="btn">
+        <button>Click</button>
+    </div>
+    <p>Hello, world</p>
+    <script>
+        let btn=document.querySelector('button')
+        let p=document.querySelector('p')
+        btn.addEventListener('click', function(){
+            p.style.display='block'
+        })
+                
+    </script>
+</body>
+
+</html>

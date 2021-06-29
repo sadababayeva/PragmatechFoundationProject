@@ -1,0 +1,44 @@
+.clock {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid darkgray;
+    background: lightgray;
+    box-shadow: 0px 0px 10px lightgray;
+    position: relative;
+}
+
+.secondArrow {
+    width: 200px;
+    height: 2px;
+    background: darkgray;
+    position: absolute;
+    top: 199px;
+    transform: rotate(45deg);
+    transform-origin: right center;
+    transition: all .3s ease;
+}
+
+.minuteArrow {
+    width: 203px;
+    height: 4px;
+    background: darkgray;
+    position: absolute;
+    top: 198px;
+    left: -3px;
+    transform: rotate(30deg);
+    transform-origin: right center;
+    transition: all .3s ease;
+}
+
+.hourArrow {
+    width: 201px;
+    height: 6px;
+    background: darkgray;
+    position: absolute;
+    top: 197px;
+    left: -2px;
+    transform: rotate(85deg);
+    transform-origin: right center;
+    transition: all .3s ease;
+}
