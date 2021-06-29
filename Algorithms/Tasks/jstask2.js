@@ -14,7 +14,7 @@ function nextImage(){
     }else{
         i=1
     }
-    sliderContent.innerHTML='<img src='+image[i-1]+'.jpg>';
+    
 }
 
 function prewImage(){
@@ -23,5 +23,5 @@ function prewImage(){
     }else{
         i=1
     }
-    sliderContent.innerHTML='<img src='+image[i-1]+'.jpg>';
+    
 }
