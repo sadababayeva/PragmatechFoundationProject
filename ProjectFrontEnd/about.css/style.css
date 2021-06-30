@@ -249,7 +249,7 @@
     margin-left: 50px;
 }
 
-.skills-bar-1{
+.skillsBar1{
     width: 630px;
     height: 13px;
     border: 1px solid rgba(225, 228, 237, 0.65);
@@ -257,7 +257,7 @@
     overflow: hidden;
     background-color: rgba(225, 228, 237, 0.65);
 }
-.skills-bar-2{
+.skillsBar2{
     width: 630px;
     height: 13px;
     border: 1px solid rgba(225, 228, 237, 0.65);
@@ -266,7 +266,7 @@
     margin: 60px 0px;
     background-color: rgba(225, 228, 237, 0.65);
 }
-.skills-bar-3{
+.skillsBar3{
     width: 630px;
     height: 13px;
     border: 1px solid rgba(225, 228, 237, 0.65);
@@ -274,7 +274,7 @@
     overflow: hidden;
     background-color: rgba(225, 228, 237, 0.65);
 }
-.skills-bar-4{
+.skillsBar4{
     width: 630px;
     height: 13px;
     border: 1px solid rgba(225, 228, 237, 0.65);
@@ -284,8 +284,8 @@
     margin: 60px 0px;
 }
 
-.progress-1 {
-    width: 600px;
+.progress1 {
+    width: 96%;
     height: 13px;
     background: #6852ED;
     text-align: right;
@@ -294,8 +294,8 @@
     color: #ffff;
     font-size: 12px;
 }
-.progress-2 {
-    width: 530px;
+.progress2 {
+    width: 81%;
     height: 13px;
     background: #6852ED;
     text-align: right;
@@ -305,8 +305,8 @@
     font-size: 12px;
     
 }
-.progress-3 {
-    width: 590px;
+.progress3 {
+    width: 95%;
     height: 13px;
     background: #6852ED;
     text-align: right;
@@ -315,8 +315,8 @@
     color: #ffff;
     font-size: 12px;
 }
-.progress-4 {
-    width: 565px;
+.progress4 {
+    width: 89%;
     height: 13px;
     background: #6852ED;
     text-align: right;
@@ -327,50 +327,50 @@
 
 }
 
-.skills-bar-1 h4 {
+.skillsBar1 h4 {
     position: absolute;
     top: -27px;
     left: 0px;
     font-size: 1.1em;
     font-weight: normal;
 }
-.skills-bar-2 h4 {
+.skillsBar2 h4 {
     position: absolute ;
     top: 47px;
     left: 0px;
     font-size: 1.1em;
     font-weight: normal;
 }
-.skills-bar-3 h4 {
+.skillsBar3 h4 {
     position: absolute;
     top: 124px;
     left: 0px;
     font-size: 1.1em;
     font-weight: normal;
 }
-.skills-bar-4 h4 {
+.skillsBar4 h4 {
     position: absolute;
     top: 199px;
     left: 0px;
     font-size: 1.1em;
     font-weight: normal;
 }
-.skills-bar-1 span {
+.skillsBar1 span {
     position: absolute;
     top: -2px;
     left: 559px;
 }
-.skills-bar-2 span {
+.skillsBar2 span {
     position: absolute;
     top: -2px;
     left: 487px;
 }
-.skills-bar-3 span {
+.skillsBar3 span {
     position: absolute;
     top: -2px;
     left: 548px;
 }
-.skills-bar-4 span {
+.skillsBar4 span {
     position: absolute;
     top: -2px;
     left: 525px;
