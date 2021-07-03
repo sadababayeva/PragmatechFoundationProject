@@ -290,6 +290,21 @@ color: #6852ED;
 .item-box:hover {
     box-shadow:0px 0px 5px #6852ED;
 }
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 15px 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition:  0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #6852ED;
+  }
 /* company info section end */
 
 /*solution section start*/
