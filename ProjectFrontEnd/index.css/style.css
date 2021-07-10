@@ -404,7 +404,6 @@ color: #6852ED;
     /* financial section end */
 
     /* feedback section start */
-
     #customers {
         height: 500px;
         background-image: url(../img/Services-background.jpg);
@@ -479,15 +478,13 @@ color: #6852ED;
         padding: 50px 0px;
         
     }
-
     
     .call-to {
         display: flex;
         margin-right: auto;
         margin-left: auto;
         position: relative;
-        
-        
+                
     }
     
     .call-to-action {

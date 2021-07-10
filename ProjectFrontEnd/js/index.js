@@ -49,7 +49,7 @@ function increment3(){
 
 }
 
-let interval3=setInterval(increment3,1)
+let interval3=setInterval(increment3,10)
 
 
 let slides=document.getElementsByClassName('customer-feedback')
