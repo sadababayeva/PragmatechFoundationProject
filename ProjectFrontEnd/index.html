@@ -17,21 +17,23 @@
     <link rel="stylesheet" href="index.css/common.css">
     <link rel="stylesheet" href="index.css/layout.css">
     <link rel="stylesheet" href="index.css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </head>
 <body>
     <!-- top-nav section start -->
-    <section id="top-nav">
-        <div class="container">
+    <section id="top-nav" style="z-index: 3;" >
+        <div class="container" style="z-index: 3;">
             <div class="row">
-                <div class="col-2">
-                    <div class="nav-brand">
+                <div class="col-2"style="z-index: 3;">
+                    <div class="nav-brand" style="z-index: 3;">
                         <img src="https://elipso.site/wp-content/uploads/2020/05/cropped-icon-1.png" alt="">
                         <span>ELIPSO</span>
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="nav">
+                <div class="col-8" style="z-index: 3;">
+                    <div class="nav"style="z-index: 3;">
                         <ul>
                             <li>
                                 <a href="">Home</a></li>
@@ -48,9 +50,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="search">
-                        <i class="fas fa-search"></i>
+                <div class="col-2"style="z-index: 3;">
+                    <div class="search"style="z-index: 3;">
+                        <i class="fas fa-search"style="z-index: 3;"></i>
                     </div>
                 </div>
             </div>
@@ -61,28 +63,24 @@
     <!--slider section start  -->
     <section id="slider">
         <div class="slide">
-            <div class="container">
+            <div class="slide-img">
+                <img src="https://elipso.site/wp-content/uploads/2020/05/group-of-architects-and-business-people-working-ZLA57WU-scaled.jpg" alt="">
+            </div>
+            <div class="container" >
                 <div class="row">
-                    <div class="col-12">
-                        <div class="slide-content">
-                           
-                                 <div class="slide-heading">
-                                <h1>Realize Your Full Potential</h1>
+                    <div class="col-12" style="z-index: 2;">
+                        <div class="slide-content" >                            
+                            <div class="slide-heading" >
+                                <h1>Realize Your Full <br> Potential</h1>
                             </div> 
                             <div class="slide-description">
-                                <p>Lead brand integration to funnel users. create grow channels to in turn get buy in.</p>
+                                <p>Lead brand integration to funnel users. Create <br> grow channels to in turn get buy in.</p>
 
                             </div>         
-                            <div class="slide-button">
+                            <div class="slide-button" >
                                 <button>Start now</button>
                             </div>                                          
                         </div>
-                        <!-- <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span> 
-                            <span class="dot" onclick="currentSlide(2)"></span> 
-                            <span class="dot" onclick="currentSlide(3)"></span> 
-                          </div> -->
-    
                     </div>
                 </div>
             </div>
@@ -94,7 +92,7 @@
     <section id="service">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 fade-up">
                     <div class="service-item">
                         <div class="item">
                             <div class="container-fluid">
@@ -720,6 +718,10 @@
     <!-- last section section end -->
 
     <script src="js/index.js"></script>
+    
+    <script>
+        AOS.init();
+      </script>
 
 
 </body>

@@ -2,6 +2,9 @@
 /* top-nav section start */
 #top-nav {
 padding: 40px 0px;
+position: fixed;
+background-color: #FFFF;
+width: 100%;
 }
 .nav-brand {
     height: 100%;
@@ -63,17 +66,34 @@ padding: 40px 0px;
 /* top-nav section end */
 
 /* Slider section start */
-
+#slider{
+    width: 100%;
+}
 .slide {
-    padding: 200px 0px;
-    background-image: url(../img/group-of-architects-and-business-people-working-ZLA57WU-scaled.jpg);
+    /* padding: 200px 0px;   
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
+.slide-img{
+    width: 100%;
+}
+.slide-img img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+
+}
+
+
 .slide-content {
-    max-width: 400px;
-    padding-left: 250px;
+    
+    position: absolute;
+    left: 21%;
+    top: 35%;
 }
 
 

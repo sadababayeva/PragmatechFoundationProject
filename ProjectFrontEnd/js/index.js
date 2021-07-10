@@ -64,7 +64,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
     let i;   
-    if (n > slides.length) {slideIndex = 1}    
+    if (n > slides.length) {
+        slideIndex = 1}    
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
@@ -76,3 +77,4 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
   
+
