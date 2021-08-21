@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       <div class="row">
+           <div class="col-12">
+               <h1>Update Blog</h1>
+               <form action="/update/{{data.id}}" methods="POST">
+
+                <div class="form-group mt-3">
+                    <label for="" class="form-label">Title</label>
+                    <input type="text" name="title" value={{data.Name}} class="form-control">
+                </div>
+                <div class="form-group mt-3">
+                    <label for="" class="form-label">Title</label>
+                    <input type="text" name="title" value={{data.Author}} class="form-control">
+                </div><div class="form-group mt-3">
+                    <label for="" class="form-label">Title</label>
+                    <input type="text" name="title" value={{data.Year}} class="form-control">
+                </div><div class="form-group mt-3">
+                    <label for="" class="form-label">Title</label>
+                    <input type="text" name="title" value={{data.Number}} class="form-control">
+                </div>
+                <div class="form-group mt-3">
+                    <label for="" class="form-label">Title</label>
+                    <input type="text" name="title" value={{data.Summary}} class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Update</button>
+               </form>
+           </div>
+       </div> 
+    </div>
+</body>
+</html>
